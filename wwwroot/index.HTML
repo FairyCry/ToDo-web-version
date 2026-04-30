@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">    
+    <head>
+       <meta charset="UTF-8">
+       <title>Добавить</title>
+    </head>
+    <body>  
+        <h1>Добавить задачу</h1>
+        <div style="border: 1px solid black; padding: 10px;"> 
+            <input type="text" id="nameInput" placeholder="Название задачи">
+            <input type="text" id="descInput" placeholder="Описание задачи">
+            <button onclick="sendToServer()">Добавить</button>
+        </div>
+        <span id="ifTaskAdded"></span>
+        <br> <br> <button onclick="window.location.href='tasklist.HTML'">Посмотреть список задач</button>
+        <script src="script.js"></script>
+    </body>
+</html>

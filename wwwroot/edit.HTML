@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ru">    
+    <head>
+       <meta charset="UTF-8">
+       <title>Добавить</title>
+    </head>
+    <body>  
+        <h1>Редактор задачи</h1>
+        <span>Оставьте пустое поле если не хотите менять</span> <br><br>
+        <div>
+            <input type="text" id="newNameInput" placeholder="Новое название задачи">
+            <input type="text" id="newDescInput" placeholder="Новое описание задачи">
+            <button onclick="sendToServerNewData()">Отправить</button>
+        </div>
+        <br> <button onclick="window.location.href = 'tasklist.HTML'">отменить редактирование</button>
+        <script src="script.js"></script>
+    </body>
+</html>
